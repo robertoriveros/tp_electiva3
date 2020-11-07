@@ -6,14 +6,14 @@ public class Consulta_medica {
     private Integer codconsulta;
     private Integer codHospital;
     private Integer codServicio;
-
-    private Integer codHistorial;
-    private Integer codMedico;
-    private Date fechaIngreso;
-    private Date fechaAlta;
+    private Integer codMedico_serv;
 
     private String tratamiento;
     private int nroHabitacion;
-    private String cedula_m;
+
     private Boolean internacion;
+    private String observaciones;
+
+    private Date fechaIngreso;
+    private Date fechaAlta;
 }
